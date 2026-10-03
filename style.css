@@ -1,0 +1,200 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    background: #111;
+    color: white;
+}
+
+header {
+    background: black;
+    padding: 10px 10px;
+    position: relative;
+    text-align: center;
+}
+
+header h1 {
+    color: #ff0000;
+    font-weight: 700;
+
+}
+
+header .logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+header nav a {
+    color: #ff0000;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.link {
+    color: #ff0000;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+
+.link:hover {
+    text-decoration: underline;
+    color: rgb(250, 35, 6);
+    transform: scale(1.05);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: rgb(250, 35, 6);
+    transform: scale(1.05);
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+
+.überuns {
+    text-align: center;
+    padding: 60px;
+    font-size: 20px;
+}
+
+.überuns .tipp {
+    color: #ff0000;
+    font-weight: 700;
+}
+
+
+.songs {
+    text-align: center;
+}
+
+.songs table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #111;
+    color: white;
+    font-family: sans-serif;
+}
+
+.songs th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+
+.songs th {
+    background: #222;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.songs tr:hover {
+    background: #1c1c1c1c;
+}
+
+
+
+
+.newsletter {
+    padding: 100px 60px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.newsletter h2 {
+    color: #ff0000;
+}
+
+.newsletter input {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    transition: 0.5s;
+    font-weight: 700;
+    background: #0e0d0d;
+    color: white;
+}
+
+.newsletter input:focus {
+    outline: none;
+    border-bottom: 2px solid #ff0000;
+    box-shadow: 2px 1px 10px #ff0000;
+    transition: 0.5s;
+    transform: scale(1.12);
+}
+
+.newsletter button {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    background: #0e0d0d;
+    color: white;
+}
+
+.newsletter button:hover {
+    background: #ff0000;
+    transition: 0.5s;
+    color: white;
+}
+
+
+.login-input {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px 10px;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+.login-input input {
+padding: 10px 10px;
+border: none;
+border-radius: 8px;
+background: #0e0d0d;
+font-weight: 700;
+color: white;
+}
+
+.login-input input:focus {
+outline: none;
+border-bottom: 2px solid #ff0000;
+box-shadow: 2px 1px 10px #ff0000;
+transition: 0.5s;
+transform: scale(1.01);
+}
+
+
+.login-input button {
+padding: 10px 10px;
+border: none;
+border-radius: 8px;
+font-weight: 700;
+background: #0e0d0d;
+color: white;
+cursor: pointer;
+}
+
+.login-input button:hover {
+background: #ff0000;
+transition: 0.5s;
+
+}
